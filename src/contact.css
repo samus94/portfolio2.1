@@ -1,0 +1,32 @@
+.contactBox {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 2em;
+    margin: 1em .5em;
+}
+
+.iconbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 4em;
+}
+
+.icons {
+    min-width: 20%;
+    max-width: 20%;
+    margin-left: 10em;
+    margin-right: auto;
+    width: auto;
+    
+}
+
+.contactIntro h1{
+    text-align: center;
+}
+
+.contactIntro h4{
+    text-align: center;
+}
+
+.contactIntro {
+    margin-top: 4em;
+}

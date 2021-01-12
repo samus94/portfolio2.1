@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro:100);
+
+.homeSlot {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 2em;
+    margin: 1em .5em;
+    /* color:rgb(243, 111, 34); */
+    
+}
+
+.homeGrid {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    background: 
+    url(https://i.imgur.com/2RLLfyd.gif)
+    no-repeat center center fixed;
+    background-size: cover;
+    height: 25em;
+
+}
+
+
+.fullStack {
+    padding: 15px;
+    float: left;
+    background-color: black;
+    background-image: linear-gradient( #0099ff, blue);
+    border-radius: 7%;
+    margin-right: 10px;
+    color: white;
+    height: 15em;
+    margin-top: 2em;
+}
+  
+
+/* .gifSlot {
+    background: 
+    url(https://i.imgur.com/2RLLfyd.gif)
+    no-repeat center center fixed;
+    background-size: cover;
+    border-radius: 7%;
+} */
+
+.gameDesigner {
+    padding: 15px;
+    justify-self: end;
+    background-color: black;
+    /* background:#0099ff, blue; */
+    background-image: linear-gradient( #0099ff, blue);
+    border-radius: 7%;
+    margin-left: 10px;
+    color: white;
+    opacity: 1;
+    height: 15em;
+    margin-top: 2em;
+}
+
+.designerText {
+    height: auto;
+    width: auto;
+    word-wrap: break-word;
+}
+
+.recentProjects h1{
+    text-align: center;
+}
+
+
+.ProjectBox {
+    background-color: white;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.projectSlot {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.image-box {
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 8px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+    /* min-width: 211px; */
+    padding: 15px 15px 15px 15px;
+}
+
+.project-name {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.project-image {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 80%;
+    margin: auto;
+    width: auto;
+}
+
+
+.image-container {
+    height: 100%;
+    width: 100%;
+}

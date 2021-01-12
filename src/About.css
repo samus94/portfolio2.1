@@ -1,0 +1,27 @@
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-size: 2em;
+}
+
+.mePic{
+    margin-top: 35px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 50%;
+}
+
+.aboutMe {
+    margin: 35px 0px 0px 15px;
+    /* center the text */
+}
+
+.aboutMe h2 {
+    text-align: center;
+}
+
+.aboutMe p {
+    padding: 0px 25px 0px 25px;
+}
+
+
